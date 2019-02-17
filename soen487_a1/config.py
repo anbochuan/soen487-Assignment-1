@@ -1,0 +1,16 @@
+class Config(object):
+    # config database
+    SQLALCHEMY_DATABASE_URI = r"sqlite:///SOEN487_A1.db"
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+class ProdConfig(Config):
+    pass
+
+
+class DevConfig(Config):
+    DEBUG = True
+
+
+class TestConfig(Config):
+    TESTING = True
+    SQLALCHEMY_DATABASE_URI = r"sqlite:///tests/test_SOEN487_A1.sqlite"
