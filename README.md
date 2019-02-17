@@ -1,5 +1,7 @@
 # SOEN487 Web Services and Applications
 ## Assignment 1
+## student name: Bochuan An
+## student ID: 27878745
 ### Winter 2019
 ### Prof: Denis Rinfret
 
